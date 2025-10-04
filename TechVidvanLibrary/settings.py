@@ -25,7 +25,12 @@ SECRET_KEY = '16if@6zel5d#j+3!bdh+)p*6$$kt1tleg*%om5b+l4r47b-4z6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['librarymgmt.amritniure.com.np', '127.0.0.1', 'localhost']
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://librarymgmt.amritniure.com.np'
+]
+
 
 
 # Application definition
