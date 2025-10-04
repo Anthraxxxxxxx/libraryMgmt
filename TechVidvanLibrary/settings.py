@@ -29,6 +29,7 @@ ALLOWED_HOSTS = ['librarymgmt.amritniure.com.np', '127.0.0.1', 'localhost']
 
 CSRF_TRUSTED_ORIGINS = [
     'https://librarymgmt.amritniure.com.np'
+    'https://anthraxxxxxxx.github.io/libraryMgmt/'
 ]
 
 
